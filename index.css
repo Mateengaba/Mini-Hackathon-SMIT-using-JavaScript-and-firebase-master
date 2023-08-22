@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+background-color: rgb(78, 94, 161);
+
+}
+
+
+.info {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: small;
+}
+h4{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+padding-top: 10px;
+}
+
+.langTag {
+    padding: 0 8px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    
+    color: white;
+}
+
+.langTag:hover{
+
+    color:white;
+      transition: all 0.3s ease;
+      cursor: pointer;
+}    
+
+ /*  Deals! start */
+
+
+.Amazing{
+    width: 100%;
+    height: 250px;
+    /* display:flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: 60px;}
+
+
+.Amazing h3{
+    padding-top: 30px;
+}
+
+.Amazing h1{
+    color:black;
+  
+    padding-top: 10px;
+}
+
+
+ /*  Deals! End */
